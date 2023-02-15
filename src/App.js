@@ -28,9 +28,6 @@ function App() {
         
                 <div class="flex h-screen items-center justify-center z-50">
                     <img src={whiteLogo} alt="image1" class=" h-20 relative"></img> 
-                    <li>
-
-                    </li>
                     <div class="absolute mt-96">
                         <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-7 w-24 text-center">
                             <button>
