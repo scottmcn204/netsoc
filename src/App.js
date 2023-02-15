@@ -27,7 +27,7 @@ function App() {
                 </nav>
         
                 <div class="flex h-screen items-center justify-center z-50">
-                    <img src={whiteLogo} alt="image" class=" h-20 relative"></img> 
+                    <img src={whiteLogo} alt="image1" class=" h-20 relative"></img> 
                     <li>
 
                     </li>
@@ -44,12 +44,12 @@ function App() {
                         </div>
                     </div>
                     <div class="absolute mt-96">
-                        <img src={discord} alt="image" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={instagram} alt="image" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={facebook} alt="image" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={twitter} alt="image" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={github} alt="image" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={linkedin} alt="image" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
+                        <img src={discord} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
+                        <img src={instagram} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
+                        <img src={facebook} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
+                        <img src={twitter} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
+                        <img src={github} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
+                        <img src={linkedin} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
                     </div>
 
 
