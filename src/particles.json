@@ -16,8 +16,7 @@
       "onHover": {
         "enable": true,
         "mode": "repulse"
-      },
-      "resize": true
+      }
     }, 
     "modes": {
       "push": {
@@ -33,13 +32,11 @@
       "enable": true,
       "distance": 150,
       "color": {
-        "value": "#ff0000",
-        "animation": {
-            "enable": true,
-            "speed": 40,
-            "sync": true
-        }
+        "value": "#ff0000"
       }    
+    },
+    "number": {
+      "value": 50
     },
     "move": {
       "enable": true,
@@ -58,9 +55,7 @@
           "speed": 40,
           "sync": true
       }
-    },
-    "number": {
-      "value": 50
     }
+
   }
 }

@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import particlesOptions from "./particles.json";
+//import particlesOptions from "./particles.json";
 import whiteLogo from "./netsocLogoWhite.png"
 import instagram from "./instagram.png"
 import discord from "./discord.png"
@@ -20,7 +20,68 @@ function App() {
         <body>
             <section class="h-screen">
                 <div className="particles">
-                    <Particles options={particlesOptions} init={particlesInit}/>
+                    <Particles options={
+                        {
+                            "background": {
+                              "color": "#121212"
+                            },
+                            "fullScreen":{
+                              "enable" : true,
+                              "zIndex" : 0
+                            },
+                            "interactivity": {
+                              "events": {
+                                "onClick": {
+                                  "enable": true,
+                                  "mode": "push"
+                                },
+                                "onHover": {
+                                  "enable": true,
+                                  "mode": "repulse"
+                                }
+                              }, 
+                              "modes": {
+                                "push": {
+                                  "quantity": 5
+                                }, 
+                                "repulse": {
+                                  "radius": 300
+                                }
+                              }
+                            },
+                            "particles": {
+                              "links": {
+                                "enable": true,
+                                "distance": 150,
+                                "color": {
+                                  "value": "#ff0000"
+                                }    
+                              },
+                              "number": {
+                                "value": 50
+                              },
+                              "move": {
+                                "enable": true,
+                                "speed": {"min": 1, "max": 5}
+                              },
+                              "opacity": {
+                                "value": {"min": 0.4, "max": 0.9}
+                              },
+                              "size": {
+                                "value": {"min": 1, "max": 3}
+                              },
+                              "color": {
+                                "value": "#ff0000",
+                                "animation": {
+                                    "enable": true,
+                                    "speed": 40,
+                                    "sync": true
+                                }
+                              }
+                          
+                            }
+                          }
+                    } init={particlesInit}/>
                 </div>
                 <nav class="absolute z-30">
                     <h1 class=" pt-5 text-xl text-slate-300 px-5" >Dublin University Inter<b>Net Soc</b>iety</h1> 
@@ -71,10 +132,10 @@ function App() {
                     <h1 class=""><b>Commitee Member:</b> Jack Herssens</h1>
                     <h1 class=""><b>Commitee Member:</b> Aaron Dinesh</h1>
                 </div>
-                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-8 p-8 rounded-3xl text-center opacity-80">
+                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 my-8 p-8 rounded-3xl text-center opacity-80">
                     <h1 class="text-center pb-2 text-2xl font-bold ">About Us</h1>
                     <hr class="pb-4 border-t-1"></hr>
-                    <p class="mb-10"><b>Netsoc</b> was founded back in 1996 to promote the Internet. 
+                    <p><b>Netsoc</b> was founded back in 1996 to promote the Internet. 
                         We run our own servers that we keep on campus, which we use 
                         to provide a range of services to our members. Membership comes 
                         with your very own Webspace, which you can use to host your own 
