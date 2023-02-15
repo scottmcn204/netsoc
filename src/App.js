@@ -11,10 +11,10 @@ import linkedin from "./linkedin.png"
 import twitter from "./twitter.png"
 
 function App() {
-    const particlesInit = useCallback(main => {
-        
-        loadFull(main);
-    }, [])
+    const particlesInit = useCallback(async engine => {
+        console.log(engine);
+        await loadFull(engine);
+    }, []);
 
     return (
         <body>
@@ -22,6 +22,8 @@ function App() {
                 <div className="particles">
                     <Particles options={
                         {
+                            "autoPlay": true,
+                            "delay": 0,
                             "background": {
                               "color": "#121212"
                             },
@@ -29,6 +31,7 @@ function App() {
                               "enable" : true,
                               "zIndex" : 0
                             },
+                            
                             "interactivity": {
                               "events": {
                                 "onClick": {
@@ -45,17 +48,34 @@ function App() {
                                   "quantity": 5
                                 }, 
                                 "repulse": {
-                                  "radius": 300
+                                  "radius": 100
                                 }
                               }
                             },
                             "particles": {
                               "links": {
-                                "enable": true,
-                                "distance": 150,
+                                "blink": false,
                                 "color": {
                                   "value": "#ff0000"
-                                }    
+                                },
+                                "consent": false,
+                                "distance": 100,
+                                "enable": true,
+                                "frequency": 1,
+                                "opacity": 0.4,
+                                "shadow": {
+                                  "blur": 5,
+                                  "color": {
+                                    "value": "#000"
+                                  },
+                                  "enable": false
+                                },
+                                "triangles": {
+                                  "enable": false,
+                                  "frequency": 1
+                                },
+                                "width": 1,
+                                "warp": false
                               },
                               "number": {
                                 "value": 50
@@ -132,7 +152,7 @@ function App() {
                     <h1 class=""><b>Commitee Member:</b> Jack Herssens</h1>
                     <h1 class=""><b>Commitee Member:</b> Aaron Dinesh</h1>
                 </div>
-                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 my-8 p-8 rounded-3xl text-center opacity-80">
+                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-8 mb-12 p-8 rounded-3xl text-center opacity-80">
                     <h1 class="text-center pb-2 text-2xl font-bold ">About Us</h1>
                     <hr class="pb-4 border-t-1"></hr>
                     <p><b>Netsoc</b> was founded back in 1996 to promote the Internet. 
