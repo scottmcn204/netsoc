@@ -58,7 +58,7 @@ function App() {
                 <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-8 p-8 rounded-3xl text-center opacity-80">
                     <h1 class="text-center pb-2 text-2xl font-bold">Commitee Members</h1>
                     <hr class="pb-2 border-t-1"></hr>
-                    <h1 class=""><b>Auditor: (Mr Internet)</b> Alex Zamolotskikh</h1>
+                    <h1 class=""><b>Auditor: (King of Internet)</b> Alex Zamolotskikh</h1>
                     <h1 class=""><b>Secratary:</b> Rishi</h1>
                     <h1 class=""><b>Treasurer:</b> Maïlé </h1>
                     <h1 class=""><b>Amenities Officer:</b> Kate</h1>
