@@ -38,9 +38,9 @@ function App() {
                             </button>
                         </div>
                         <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-7 w-24 text-center">
-                            <a href=''><button>
+                            <button>
                                 <h1 class="text-black font-bold">Sign Up</h1>
-                            </button></a>
+                            </button>
                         </div>
                     </div>
                     <div class="absolute mt-96">
