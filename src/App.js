@@ -104,20 +104,20 @@ function App() {
                     } init={particlesInit}/>
                 </div>
                 <nav class="absolute z-30">
-                    <h1 class=" pt-5 text-sm text-slate-300 px-5" >Dublin University Inter<b>Net Soc</b>iety</h1> 
+                    <h1 class=" pt-5 text-sm md:text-xl text-slate-300 px-5" >Dublin University Inter<b>Net Soc</b>iety</h1> 
                 </nav>
         
                 <div class="flex h-screen items-center justify-center z-50">
                     <img src={whiteLogo} alt="image1" class="mb-48 h-20 relative"></img> 
                     <div class="absolute mt-44">
-                        <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-7 w-24 text-center">
+                        <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center">
                             <button>
-                                <h1 class="text-black font-bold">About Us</h1>
+                                <h1 class="text-black font-bold md:text-base text-sm">About Us</h1>
                             </button>
                         </div>
-                        <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-7 w-24 text-center">
+                        <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center">
                             <button>
-                                <h1 class="text-black font-bold">Sign Up</h1>
+                                <h1 class="text-black font-bold md:text-base text-sm">Sign Up</h1>
                             </button>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ function App() {
             </section>
 
             <section class="h-screen">
-                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-8 p-8 rounded-3xl text-center opacity-80">
+                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-8 p-8 rounded-3xl text-center opacity-80 md:text-base text-sm">
                     <h1 class="text-center pb-2 text-2xl font-bold">Commitee Members</h1>
                     <hr class="pb-2 border-t-1"></hr>
                     <h1 class=""><b>Auditor: (King of Internet)</b> Alex Zamolotskikh</h1>
@@ -152,7 +152,7 @@ function App() {
                     <h1 class=""><b>Commitee Member:</b> Jack Herssens</h1>
                     <h1 class=""><b>Commitee Member:</b> Aaron Dinesh</h1>
                 </div>
-                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-8 mb-12 p-8 rounded-3xl text-center opacity-80">
+                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-8 mb-12 p-8 rounded-3xl text-center opacity-80 md:text-base text-sm">
                     <h1 class="text-center pb-2 text-2xl font-bold ">About Us</h1>
                     <hr class="pb-4 border-t-1"></hr>
                     <p><b>Netsoc</b> was founded back in 1996 to promote the Internet. 
