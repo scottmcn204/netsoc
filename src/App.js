@@ -109,11 +109,11 @@ function App() {
                     } init={particlesInit}/>
                 </div>
                 <nav class="absolute z-30">
-                    <h1 class=" pt-5 text-sm md:text-xl text-slate-300 px-5 animate-float-slow" >Dublin University Inter<b>Net Soc</b>iety</h1> 
+                    <h1 class=" pt-5 text-sm md:text-xl text-white px-5 animate-float-slow" >Dublin University Inter<b>Net Soc</b>iety</h1> 
                 </nav>
         
                 <div class="flex h-screen items-center justify-center z-50 shadow-2xl ">
-                    <img src={whiteLogo} alt="image1" class="mb-48 h-20 relative animate-appearfade"></img> 
+                    <img src={whiteLogo} alt="netsoc logo" class="mb-48 h-20 relative animate-appearfade"></img> 
                     <div class="absolute mt-44">
                         <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center animate-appearfadeslow">
                             <button onClick={handleClick}>
@@ -127,12 +127,12 @@ function App() {
                         </div>
                     </div>
                     <div class="absolute mt-96 h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full animate-appearfadeslow">
-                        <a href='https://discord.gg/GrW6a6mc'><img src={discord} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
-                        <a href='https://www.instagram.com/tcdnetsoc/'><img src={instagram} alt="image1" class= "mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
-                        <a href='https://www.facebook.com/dunetsoc/'><img src={facebook} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
-                        <a href='https://twitter.com/netsoc?lang=en'><img src={twitter} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
-                        <a href='https://github.com/netsoc'><img src={github} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
-                        <a href='https://www.linkedin.com/company/du-netsoc/about/'><img src={linkedin} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1 text-center"/></a>
+                        <a href='https://discord.gg/GrW6a6mc'><img src={discord} alt="discord logo" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://www.instagram.com/tcdnetsoc/'><img src={instagram} alt="instagram logo" class= "mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://www.facebook.com/dunetsoc/'><img src={facebook} alt="facebook logo" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://twitter.com/netsoc?lang=en'><img src={twitter} alt="twitter logo" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://github.com/netsoc'><img src={github} alt="github logo" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://www.linkedin.com/company/du-netsoc/about/'><img src={linkedin} alt="linkedin logo" class=" mb-48 h-8 p-1 inline-block mx-1 text-center"/></a>
                     </div>
 
 
