@@ -104,24 +104,24 @@ function App() {
                     } init={particlesInit}/>
                 </div>
                 <nav class="absolute z-30">
-                    <h1 class=" pt-5 text-sm md:text-xl text-slate-300 px-5" >Dublin University Inter<b>Net Soc</b>iety</h1> 
+                    <h1 class=" pt-5 text-sm md:text-xl text-slate-300 px-5 animate-float-slow" >Dublin University Inter<b>Net Soc</b>iety</h1> 
                 </nav>
         
-                <div class="flex h-screen items-center justify-center z-50">
-                    <img src={whiteLogo} alt="image1" class="mb-48 h-20 relative"></img> 
+                <div class="flex h-screen items-center justify-center z-50 shadow-2xl ">
+                    <img src={whiteLogo} alt="image1" class="mb-48 h-20 relative animate-appearfade"></img> 
                     <div class="absolute mt-44">
-                        <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center">
+                        <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center animate-appearfadeslow">
                             <button>
                                 <h1 class="text-black font-bold md:text-base text-sm">About Us</h1>
                             </button>
                         </div>
-                        <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center">
+                        <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center animate-appearfadeslow">
                             <button>
                                 <h1 class="text-black font-bold md:text-base text-sm">Sign Up</h1>
                             </button>
                         </div>
                     </div>
-                    <div class="absolute mt-96 h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full">
+                    <div class="absolute mt-96 h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full animate-appearfadeslow">
                         <img src={discord} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
                         <img src={instagram} alt="image1" class= "mb-48 h-8 p-1 inline-block mx-1  text-center"/>
                         <img src={facebook} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
