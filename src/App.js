@@ -104,12 +104,12 @@ function App() {
                     } init={particlesInit}/>
                 </div>
                 <nav class="absolute z-30">
-                    <h1 class=" pt-5 text-xl text-slate-300 px-5" >Dublin University Inter<b>Net Soc</b>iety</h1> 
+                    <h1 class=" pt-5 text-sm text-slate-300 px-5" >Dublin University Inter<b>Net Soc</b>iety</h1> 
                 </nav>
         
                 <div class="flex h-screen items-center justify-center z-50">
-                    <img src={whiteLogo} alt="image1" class=" h-20 relative"></img> 
-                    <div class="absolute mt-96">
+                    <img src={whiteLogo} alt="image1" class="mb-48 h-20 relative"></img> 
+                    <div class="absolute mt-44">
                         <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-7 w-24 text-center">
                             <button>
                                 <h1 class="text-black font-bold">About Us</h1>
@@ -121,13 +121,13 @@ function App() {
                             </button>
                         </div>
                     </div>
-                    <div class="absolute mt-96">
-                        <img src={discord} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={instagram} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={facebook} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={twitter} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={github} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
-                        <img src={linkedin} alt="image1" class="h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full p-1 inline-block mx-4 text-center mt-48"/>
+                    <div class="absolute mt-96 h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full">
+                        <img src={discord} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
+                        <img src={instagram} alt="image1" class= "mb-48 h-8 p-1 inline-block mx-1  text-center"/>
+                        <img src={facebook} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
+                        <img src={twitter} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
+                        <img src={github} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
+                        <img src={linkedin} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1 text-center"/>
                     </div>
 
 
