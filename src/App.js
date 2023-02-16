@@ -9,12 +9,17 @@ import facebook from "./facebook.png"
 import github from "./github.png"
 import linkedin from "./linkedin.png"
 import twitter from "./twitter.png"
+import {useRef} from 'react';
 
 function App() {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
         await loadFull(engine);
     }, []);
+  const ref = useRef(null);
+  const handleClick = () => {
+    ref?.current.scrollIntoView({behavior: 'smooth'});
+  };
 
     return (
         <body>
@@ -111,23 +116,23 @@ function App() {
                     <img src={whiteLogo} alt="image1" class="mb-48 h-20 relative animate-appearfade"></img> 
                     <div class="absolute mt-44">
                         <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center animate-appearfadeslow">
-                            <button>
+                            <button onClick={handleClick}>
                                 <h1 class="text-black font-bold md:text-base text-sm">About Us</h1>
                             </button>
                         </div>
                         <div class=" bg-gradient-to-t from-gray-400 to-gray-100 p-2 rounded-2xl inline-block mx-4 sm:mx-7 w-24 text-center animate-appearfadeslow">
-                            <button>
+                            <a href="https://trinitysocietieshub.com/collections/science-technology/products/netsoc"><button>
                                 <h1 class="text-black font-bold md:text-base text-sm">Sign Up</h1>
-                            </button>
+                            </button></a>
                         </div>
                     </div>
                     <div class="absolute mt-96 h-8 bg-gradient-to-t from-gray-400 to-gray-100 rounded-full animate-appearfadeslow">
-                        <img src={discord} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
-                        <img src={instagram} alt="image1" class= "mb-48 h-8 p-1 inline-block mx-1  text-center"/>
-                        <img src={facebook} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
-                        <img src={twitter} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
-                        <img src={github} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/>
-                        <img src={linkedin} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1 text-center"/>
+                        <a href='https://discord.gg/GrW6a6mc'><img src={discord} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://www.instagram.com/tcdnetsoc/'><img src={instagram} alt="image1" class= "mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://www.facebook.com/dunetsoc/'><img src={facebook} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://twitter.com/netsoc?lang=en'><img src={twitter} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://github.com/netsoc'><img src={github} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1  text-center"/></a>
+                        <a href='https://www.linkedin.com/company/du-netsoc/about/'><img src={linkedin} alt="image1" class=" mb-48 h-8 p-1 inline-block mx-1 text-center"/></a>
                     </div>
 
 
@@ -135,8 +140,8 @@ function App() {
                 </div>
             </section>
 
-            <section class="h-screen">
-                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-8 p-8 rounded-3xl text-center opacity-80 md:text-base text-sm">
+            <section ref={ref}  class="min-h-screen">
+                <div class="relative z-50 mx-auto bg-back md:w-6/12 sm:w-10/12 xs: w-11/12 text-slate-300 mt-14 p-8 rounded-3xl text-center opacity-80 md:text-base text-sm">
                     <h1 class="text-center pb-2 text-2xl font-bold">Commitee Members</h1>
                     <hr class="pb-2 border-t-1"></hr>
                     <h1 class=""><b>Auditor: (King of Internet)</b> Alex Zamolotskikh</h1>
